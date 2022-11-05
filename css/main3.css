@@ -1,0 +1,165 @@
+table,tr,td{
+    text-align: center;
+    border: solid 2px white;
+}
+.Таблица1
+{
+    position: relative;
+    top: 100px
+}
+table {
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40px
+}
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: rgb(8, 228, 0);
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+    color: aliceblue;
+}
+.pink{
+    background-color: pink;
+}
+.blueviolet{
+    background-color:blueviolet;
+    color: aliceblue;
+}
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11pt;
+    font-weight: 300;
+    color: #6c6c6c
+}
+   
+#header
+{
+    position: relative;
+    right: 238.5px;
+    height: 100px;
+
+}
+#wrapper
+{
+    background: #FFF;
+}
+#menu
+{
+    position: absolute;
+    right: 0;
+    top: 1.6em;
+}
+.li
+{
+    display: block;
+    float: left;
+    text-align: center;
+    margin-left: 1px;
+    padding: 1em 1.5em 0em 1.5em;
+    letter-spacing: 0.10em;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    outline: 0;
+    display: inline-block;
+    color: #FFF;
+
+}
+
+
+
+#menu li
+{
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+#menu li a, #menu li span
+{
+    
+    margin-left: 1px;
+    padding: 1em 1.5em 0em 1.5em;
+    letter-spacing: 0.10em;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    outline: 0;
+    color: #FFF;
+}
+
+.текущая_страница 
+{
+    color: #be18db
+}
+
+
+
+#header-wrapper
+{
+    background: #2b2b2b;
+
+
+}
+.container
+{
+    margin: auto;
+    width: 1200px;
+
+}
+
+
+#header-wrapper
+{
+    background: #2b2b2b;
+}
+
+#copyright
+{
+    overflow: hidden;
+    padding: 1em 30em 11em 0em;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    max-height: 0px
+
+}
+#copyright.container
+{
+    position: relative;
+    top: 300px
+
+}
+#copyright p
+{
+    letter-spacing: 0.20em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.80em;
+    color: rgba(255,255,255,0.3);
+    position: relative;
+    top: 40px; right: -205px;
+
+}
+
+#copyright a
+{
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+}
+footer
+{
+    background: #2b2b2b
+}
+
